@@ -9,6 +9,6 @@ export const environment = {
     url: 'xupler.auth0.com', // the auth0 domain prefix
     audience: 'coffee', // the audience set for the auth0 app
     clientId: 'rMfB9ER398J2TwQE2hU4KKuKWbDgJPXu', // the client id generated for the auth0 app
-    callbackURL: 'http://localhost:8100', // the base url of the running ionic application.
+    callbackURL: 'http://localhost:8100/login-results', // the base url of the running ionic application.
   }
 };
